@@ -650,6 +650,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -723,6 +727,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -751,6 +759,10 @@
         },
         {
           "type": "if_clause",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         }
       ]
@@ -839,6 +851,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -875,6 +891,10 @@
         },
         {
           "type": "local_declaration",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         },
         {
@@ -925,6 +945,10 @@
         },
         {
           "type": "local_declaration",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         },
         {
@@ -1108,6 +1132,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -1187,6 +1215,10 @@
         },
         {
           "type": "local_declaration",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         },
         {
@@ -1345,6 +1377,10 @@
         },
         {
           "type": "local_declaration",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         },
         {
@@ -1602,6 +1638,10 @@
         },
         {
           "type": "local_declaration",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         },
         {
@@ -2018,6 +2058,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -2160,6 +2204,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -2295,6 +2343,10 @@
         {
           "type": "matrix_row",
           "named": true
+        },
+        {
+          "type": "semicolon",
+          "named": true
         }
       ]
     }
@@ -2363,6 +2415,10 @@
         },
         {
           "type": "local_declaration",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         },
         {
@@ -2464,6 +2520,10 @@
         },
         {
           "type": "optional_parameter",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         },
         {
@@ -2813,6 +2873,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -3144,6 +3208,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -3251,6 +3319,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         },
@@ -3322,6 +3394,10 @@
         },
         {
           "type": "local_declaration",
+          "named": true
+        },
+        {
+          "type": "semicolon",
           "named": true
         },
         {
@@ -3763,6 +3839,10 @@
           "named": true
         },
         {
+          "type": "semicolon",
+          "named": true
+        },
+        {
           "type": "short_function_definition",
           "named": true
         }
@@ -3972,6 +4052,10 @@
   {
     "type": "return",
     "named": false
+  },
+  {
+    "type": "semicolon",
+    "named": true
   },
   {
     "type": "struct",

@@ -9203,10 +9203,17 @@
           "value": "\n"
         },
         {
-          "type": "PATTERN",
-          "value": ";+"
+          "type": "SYMBOL",
+          "name": "semicolon"
         }
       ]
+    },
+    "semicolon": {
+      "type": "TOKEN",
+      "content": {
+        "type": "PATTERN",
+        "value": ";+"
+      }
     },
     "line_comment": {
       "type": "TOKEN",

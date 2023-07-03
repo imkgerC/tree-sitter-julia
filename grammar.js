@@ -1264,7 +1264,9 @@ module.exports = grammar({
 
     _assign_operator: _ => token(choice(':=', '~', '$=', '.=', addDots(ASSIGN_OPERATORS))),
 
-    _terminator: _ => choice('\n', /;+/),
+    _terminator: $ => choice('\n', $.semicolon),
+
+    semicolon: _ => token(/;+/),
 
     line_comment: _ => token(seq('#', /.*/))
   }
